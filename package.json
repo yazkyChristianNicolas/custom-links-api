@@ -1,0 +1,28 @@
+{
+  "name": "custom-links-api",
+  "version": "1.0.0",
+  "description": "Custom links api ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yazkyChristianNicolas/custom-links-api.git"
+  },
+  "author": "Yazky Christian Nicolas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yazkyChristianNicolas/custom-links-api/issues"
+  },
+  "homepage": "https://github.com/yazkyChristianNicolas/custom-links-api#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "html-minifier": "^4.0.0",
+    "mongoose": "^5.12.13",
+    "mustache": "^4.2.0"
+  }
+}
